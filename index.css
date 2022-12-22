@@ -1,0 +1,519 @@
+body {
+    margin: 0;
+    background-color: #e9f0c0;
+}
+
+.PanelHeader {
+    display: flex;
+    background-color: #aec55d;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+.TextHeader {
+    text-transform: uppercase;
+    font-family: 'Chronicle SSm A','Chronicle SSm B','Sitka Subheading','AppleMyungjo',Georgia,serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SearcButton {
+    background-color: #aec55d;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+    align-items: center;
+    display: block;
+
+}
+
+.search {
+    height: 38px;
+    width: 48px;
+}
+
+.search img {
+    padding: 4px;
+    width: 66%;
+    height: auro;
+}
+
+.basket {
+    height: 38px;
+    width: 48px;
+}
+
+.BasketButton {
+    background-color: #aec55d;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: right;
+    align-items: center;
+    display: block;
+}
+
+.BasketButton img {
+    padding: 4px;
+    width: 66%;
+    height: auro;
+}
+
+.HeaderBlockCenter img {
+    width: 100%;
+    height: 200px;
+}
+
+.HeaderBlockLeft,
+.HeaderBlockRhight {
+    display: none;
+}
+
+.dropbtn {
+    background-color: #aec55d;
+    color: white;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    padding-top: 6px;
+}
+
+.dropbtn img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #aec55d;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #e9f0c0;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #aec55d;}
+
+.background img {
+    width: 100%;
+}
+
+.BlockPancake {
+    display: block;
+    align-items: center;
+    box-sizing: border-box;
+    height: 1400px;
+}
+
+.TextBlockPancake {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ImgBlockPancake {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ImgBlockPancake img {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.TextBlockPancake h2 {
+    font-size: 30px;
+    color: #739c3e;
+    margin: 0;
+    border-block-start: 2px solid #739c3e;
+    padding-top: 10px;
+}
+
+.TextBlockPancake p {
+    font-size: 15px;
+    color: #739c3e;
+    margin: 0;
+    padding-top: 10px;
+    border-block-end: 2px solid #739c3e;
+    padding-bottom: 10px;
+}
+
+.BlockPresentation {
+    width: 100%;
+    height: auto;
+}
+
+.BlockPresentationRight {
+    background-color: #739c3e;
+    width: 100%;
+    color: #e9f0c0;
+    text-align: center;
+    font-family: 'Chronicle SSm A','Chronicle SSm B','Sitka Subheading','AppleMyungjo',Georgia,serif;
+}
+
+.BlockPresentation img {
+    width: 100%;
+}
+
+.BlockPresentationRight p {
+    margin: 0;
+    padding: 5px;
+}
+
+.BlockPresentationRight h3 {
+    margin: 0;
+}
+
+@media (min-width: 1124px) {
+
+
+.dropdown {
+    display: none;
+}
+
+.HeaderBlockLeft,
+.HeaderBlockRhight {
+    display: block;
+}
+
+.PanelHeader {
+    display: flex;
+    background-color: #aec55d;
+    width: 100%;
+}
+
+.TextHeader {
+    text-transform: uppercase;
+    font-family: 'Chronicle SSm A','Chronicle SSm B','Sitka Subheading','AppleMyungjo',Georgia,serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SearcButton {
+    background-color: #aec55d;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: left;
+    align-items: center;
+    display: block;
+
+}
+
+.search {
+    height: 38px;
+    width: 48px;
+}
+
+.search img {
+    padding: 4px;
+    width: 66%;
+    height: auro;
+}
+
+.basket {
+    height: 38px;
+    width: 48px;
+}
+
+.BasketButton {
+    background-color: #aec55d;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-align: right;
+    align-items: center;
+    display: block;
+}
+
+.BasketButton img {
+    padding: 4px;
+    width: 66%;
+    height: auro;
+}
+
+.HeaderContent {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: #2f1e0a;
+    padding: 19px;
+}
+
+.HeaderBlockLeft {
+    border-right: 2px solid #2f1e0a;
+    width: 100%;
+}
+
+.TextHeaderBlockLeft {
+    line-height: 45px;
+    height: 45px;
+}
+
+.TextHeaderBlockLeft p, 
+.HeaderBlockRhight p {
+    font-family: italic;
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+}
+
+.LeftMenu,
+.RightMenu {
+    border-top: 2px solid #2f1e0a;
+}
+
+.LeftMenu ul, 
+.RightMenu ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: 'Chronicle SSm A','Chronicle SSm B','Sitka Subheading','AppleMyungjo',Georgia,serif;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px;
+}
+
+.HeaderBlockCenter {
+    height: 90px;
+    width: 500px;
+    padding: 13px;
+}
+
+.HeaderBlockCenter img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.TextHeaderBlockRight {
+    line-height: 45px;
+    height: 45px; 
+}
+
+.HeaderBlockRhight {
+    border-left: 2px solid #2f1e0a;
+    width: 100%;
+}
+
+.SideMenuButton {
+    display: none;
+}
+
+.BlockPancake {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    height: auto;
+}
+
+.TextBlockPancake {
+    font-family: 'Chronicle SSm A','Chronicle SSm B','Sitka Subheading','AppleMyungjo',Georgia,serif;
+    text-align: center;
+}
+
+.TextBlockPancake h2 {
+    font-size: 35px;
+    color: #739c3e;
+}
+
+.TextBlockPancake p {
+    font-size: 20px;
+    color: #739c3e;
+}
+
+.ImgBlockPancake {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    padding: 10px;  
+    padding-left: 33px;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-right: 0
+}    
+
+.ImgBlockPancake img {
+    width: 100%;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.BlockPresentation {
+    display: flex;
+    padding-top: 50px;
+}
+
+.BlockPresentation img {
+    width: 50%;
+}
+
+.BlockPresentationRight {
+    background-color: #739c3e;
+    width: 100%;
+    padding: 50px;
+    color: #e9f0c0;
+    font-family: 'Chronicle SSm A','Chronicle SSm B','Sitka Subheading','AppleMyungjo',Georgia,serif;
+}
+
+.BlockPresentationRight p {
+    font-size: 20px;
+    padding-left: 20px;
+    margin: 0; 
+}
+
+.BlockPresentationRight h3 {
+    font-size: 40px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.BlockProduct {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.BlockProductImgLeft {
+    width: 50%;
+}
+
+.BlockProduct p {
+    position: absolute;
+    font-family: Academy Engraved LET;
+    margin: 0;
+    padding: 70px;
+    font-size: 45px;
+    color: #2f1e0a;
+    font-weight: bolder;
+}
+
+.BlockProductImgRight {
+    width: 50%;
+}
+
+.BlockCharacteristics {
+    padding-top: 50px;
+}
+
+.BlockCharacteristics p {
+    font-size: 40px;
+    color: #2f1e0a;
+    text-align: center;
+}
+
+.CharacteristicsProduct {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding-top: 35px;
+}
+
+.CharacteristicsProduct img {
+    width: 200px;
+    height: 200px;
+    height: auto;
+    filter: grayscale(1);
+    padding: 30px;
+}
+
+.CharacteristicsProduct h4 {
+    font-size: 27px;
+    text-align: center;
+    color: #2f1e0a;
+    font-family: Academy Engraved LET;
+    margin: 0;
+}
+
+.CharacteristicsProduct p {
+    font-size: 18px;
+    color: #2f1e0a;
+    margin: 0;
+
+}
+
+.CharacteristicsProductLeft,
+.CharacteristicsProductCenter,
+.CharacteristicsProductRight {
+    padding: 20px;
+    width: 33%;
+}
+
+footer {
+    padding-top: 100px;
+}
+
+.LowerBlockImg {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: white;
+}
+
+.LowerBlockImg img {
+    width: 200px;
+    height: 200px;
+}
+
+.LowerBlock {
+    background-color: #739c3e;
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.LowerBlockLeft {
+    width: 35%;
+    padding: 10px;
+}
+
+.LowerBlockLeft h5 {
+    margin: 0;
+    color: #e9f0c0;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.LowerBlockLeft p {
+    margin: 0;
+    color: #e9f0c0;
+
+}
+}
